@@ -1,19 +1,19 @@
-import AnimatedSection from '@/components/AnimatedSection';
-import PageHeader from '@/components/PageHeader';
-import { Link } from 'react-router-dom';
-import { Sun, Battery, ThermometerSun, Phone, PenSquare, Wrench, CheckCircle } from 'lucide-react';
+import AnimatedSection from \'@/components/AnimatedSection\';
+import PageHeader from \'@/components/PageHeader\';
+import { Link } from \'react-router-dom\';
+import { Phone, PenSquare, Wrench, CheckCircle } from \'lucide-react\';
 
 const products = [
-    { title: 'Solar', image: 'https://renewableindustries.co/wp-content/uploads/2024/06/8244680-1024x682.jpg', description: 'Harness the power of the sun with our efficient, cost-saving solar energy solutions.', link: '/solar' },
-    { title: 'Battery', image: 'https://renewableindustries.co/wp-content/uploads/2025/07/Homepage_High-capacity_RESS.webp-scaled-e1762483851975-1024x681.jpeg', description: 'Store your energy and power your future with our reliable, high-performance battery solutions.', link: '/batteries' },
-    { title: 'Heat Pumps', image: 'https://renewableindustries.co/wp-content/uploads/2025/11/istore-270-black-2023-home-1-scaled.webp-e1762484047523.jpeg', description: 'Experience year-round comfort and efficiency with our advanced, eco-friendly heat pump systems.', link: '/heat-pumps' },
+    { title: \'Solar\', image: \'https://renewableindustries.co/wp-content/uploads/2024/06/8244680-1024x682.jpg\', description: \'Harness the power of the sun with our efficient, cost-saving solar energy solutions.\', link: \'/solar\' },
+    { title: \'Battery\', image: \'https://renewableindustries.co/wp-content/uploads/2025/07/Homepage_High-capacity_RESS.webp-scaled-e1762483851975-1024x681.jpeg\', description: \'Store your energy and power your future with our reliable, high-performance battery solutions.\', link: \'/batteries\' },
+    { title: \'Heat Pumps\', image: \'https://renewableindustries.co/wp-content/uploads/2025/11/istore-270-black-2023-home-1-scaled.webp-e1762484047523.jpeg\', description: \'Experience year-round comfort and efficiency with our advanced, eco-friendly heat pump systems.\', link: \'/heat-pumps\' },
 ];
 
 const processSteps = [
-    { icon: Phone, title: 'Getting in Touch', description: 'Contact us to schedule your free energy assessment and discover how you can save.' },
-    { icon: PenSquare, title: 'System Design', description: 'Our experts design a tailored renewable energy solution that perfectly fits your needs.' },
-    { icon: Wrench, title: 'Installation', description: 'Our certified installers complete the installation safely, efficiently, and to the highest standards.' },
-    { icon: CheckCircle, title: 'Post Installation', description: 'We follow up to ensure your system is performing optimally and you are completely satisfied.' },
+    { icon: Phone, title: \'Getting in Touch\', description: \'Contact us to schedule your free energy assessment and discover how you can save.\' },
+    { icon: PenSquare, title: \'System Design\', description: \'Our experts design a tailored renewable energy solution that perfectly fits your needs.\' },
+    { icon: Wrench, title: \'Installation\', description: \'Our certified installers complete the installation safely, efficiently, and to the highest standards.\' },
+    { icon: CheckCircle, title: \'Post Installation\', description: \'We follow up to ensure your system is performing optimally and you are completely satisfied.\' },
 ];
 
 const ServicesPage = () => {
@@ -47,7 +47,7 @@ const ServicesPage = () => {
                         <Link to={product.link} className="font-semibold text-primary-light hover:text-primary-dark transition-colors">Learn More &rarr;</Link>
                     </div>
                 </div>
-            ))}
+            ))}\
         </div>
       </AnimatedSection>
 
@@ -62,7 +62,7 @@ const ServicesPage = () => {
                     <h3 className="text-xl font-bold mb-2 text-white">{step.title}</h3>
                     <p className="text-gray-400 text-sm">{step.description}</p>
                 </div>
-            ))}
+            ))}\
         </div>
       </AnimatedSection>
     </div>

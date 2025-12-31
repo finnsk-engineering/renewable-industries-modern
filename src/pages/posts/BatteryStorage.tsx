@@ -1,6 +1,6 @@
-import AnimatedSection from '@/components/AnimatedSection';
-import BlogCard from '@/components/BlogCard';
-import { blogPosts } from '@/data/blogPosts';
+import AnimatedSection from \'@/components/AnimatedSection\';
+import BlogCard from \'@/components/BlogCard\';
+import { blogPosts } from \'@/data/blogPosts\';
 
 const post = blogPosts[2];
 const similarPosts = blogPosts.slice(0, 2);
@@ -25,11 +25,11 @@ const BatteryStorage = () => {
             <p>The need to meet demand with supply the instant it arises has been a defining characteristic of the electricity system ever since it was invented more than 100 years ago. But Mr Froud, a general manager at state-owned West Australian power provider Synergy, said this historic limitation of energy supply was changing.</p>
             <p>“With electricity storage coming into the market more and more, it’s almost turning electricity more into a traditional type of commodity,” he said. “You can store it and then use it when it’s required.”</p>
             
-            <h2 class="text-white">Sun rises over coal’s demise</h2>
+            <h2 className="text-white">Sun rises over coal’s demise</h2>
             <p>Like all electricity systems across Australia, WA’s main grid is grappling with tectonic shifts as part of the move away from conventional fossil fuel-fired generators to renewable sources.</p>
             <p>In recent weeks, a series of records have been broken in Australia’s main electricity systems, where renewable energy generation is reaching new highs. Simultaneously, coal-fired power production has plumbed new lows from one side of the continent to the other.</p>
 
-            <h2 class="text-white">Batteries help ‘fill in blanks’</h2>
+            <h2 className="text-white">Batteries help ‘fill in blanks’</h2>
             <p>According to Dr Wonhas, this was posing challenges for the stability of the grid because many of the displaced coal- and gas-fired generators were still needed when the sun was not shining. But he said batteries and other forms of storage would be invaluable in helping to provide back-up.</p>
             <p>“I think we need to be much more strategic in what we do with storage,” Dr Wonhas said. “That means in the middle of the day this storage can really absorb some of that excess solar and then release it, in particular in the early evening period when power will be really important.”</p>
           </div>
